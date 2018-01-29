@@ -1,0 +1,69 @@
+    
+}
+.OwnNavbar{
+    z-index: 1002;
+    position: fixed !important;
+    padding: 1rem 1rem !important;
+    
+    
+    
+}
+.font{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #1d1240 !important;
+    
+}
+.font:hover{
+	color: transparent !important;
+}
+
+a.nav-item.nav-link.font {
+    padding-right: 8rem;
+    padding-left: 10rem;
+}
+
+.test1-img{
+	width: 5rem;
+	height: 5rem;
+	display: none;
+    margin-left: -80px;
+    top: 15px;
+    
+}
+
+.nav-item:hover .test1-img{
+	display: inline-block;
+	position: absolute;
+    transition: ease-in 0.3s;
+    
+}
+
+.test2-img{
+    width: 5rem;
+    height: 6rem;
+    display: none;
+    margin-left: -80px;
+    top: 7px;
+}
+.nav-item:hover .test2-img{
+    display: inline-block;
+    position: fixed;
+    transition: ease-in 0.3s;
+    opacity:;
+}
+
+.test3-img{
+    width: 6rem;
+    height: 5rem;
+    display: none;
+    margin-left: -90px;
+    top: 15px;
+}
+
+.nav-item:hover .test3-img{
+    display: inline-block;
+    position: absolute;
+    transition: ease-in 0.3s;
+   
+}
